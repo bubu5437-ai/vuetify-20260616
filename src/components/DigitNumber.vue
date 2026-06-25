@@ -76,7 +76,7 @@
 svg {
   width: 100px;
   margin: 10px;
-  filter: drop-shadow(0px 0px 5px yellow);
+  filter: drop-shadow(0px 0px 10px rgb(111, 0, 255));
 }
 path, circle {
   fill: transparent;

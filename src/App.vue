@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar color="primary">
+    <v-app-bar color="black">
       <v-container class="d-flex align-center">
         <v-app-bar-title>番茄鐘</v-app-bar-title>
         <v-btn prepend-icon="mdi-home" to="/">首頁</v-btn>
@@ -9,7 +9,7 @@
       </v-container>
     </v-app-bar>
 
-    <v-main>
+    <v-main style="background: url('../src/assets/star.jpg') no-repeat; background-size: cover;">
       <!-- Component 代表目前應該顯示的頁面元件 -->
       <router-view v-slot="{ Component }">
         <!--
