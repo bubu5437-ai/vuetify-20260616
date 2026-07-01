@@ -9,7 +9,7 @@
       </v-container>
     </v-app-bar>
 
-    <v-main style="background: url('/star.jpg') no-repeat; background-size: cover;">
+    <v-main>
       <!-- Component 代表目前應該顯示的頁面元件 -->
       <router-view v-slot="{ Component }">
         <!--
